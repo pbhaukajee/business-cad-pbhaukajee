@@ -41,7 +41,8 @@ body {
   justify-content: center;
 }
 
-h1 {
+h1,
+h2 {
   font-weight: 100;
 }
 
@@ -50,8 +51,12 @@ h3 {
 }
 
 .header--email {
-  font-size: small;
   color: grey;
+}
+
+p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.852);
 }
 
 .icon {
@@ -74,4 +79,11 @@ button {
 
 .icon-linkedin {
   filter: invert(1);
+}
+
+.main-content {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
