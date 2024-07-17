@@ -26,3 +26,52 @@ body {
   border-top-right-radius: 5px;
   overflow: hidden;
 }
+
+.header--content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.header--button {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+h1 {
+  font-weight: 100;
+}
+
+h3 {
+  color: rgb(155, 132, 6);
+}
+
+.header--email {
+  font-size: small;
+  color: grey;
+}
+
+.icon {
+  width: 15px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  border-radius: 3px;
+  border: none;
+}
+
+.button-2 {
+  background-color: rgb(48, 121, 210);
+  color: white;
+}
+
+.icon-linkedin {
+  filter: invert(1);
+}
