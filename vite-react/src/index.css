@@ -7,13 +7,14 @@ body {
   padding: 10px;
   color: white;
   font-family: sans-serif;
+  height: 100vh;
 }
 
 .container {
-  width: 350px;
-  height: 98vh;
+  max-width: 350px;
+  min-height: 90vh;
   background-color: black;
-  border-radius: 5px;
+  border-radius: 10px;
   margin: 0 auto;
 }
 
@@ -22,8 +23,6 @@ body {
   background-repeat: no-repeat;
   height: 45vh;
   object-fit: cover;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
   overflow: hidden;
 }
 
@@ -86,4 +85,13 @@ button {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+.footer {
+  background-color: grey;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }

@@ -13,7 +13,7 @@ export default function Header() {
         <div className="header--button">
           <button>
             <span>
-              <img className="icon" src={Email} alt="email" />
+              <img className="icon icon-email" src={Email} alt="email" />
             </span>
             Email
           </button>
