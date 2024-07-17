@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background-color: rgb(36, 35, 35);
+  padding: 10px;
+  color: white;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 350px;
+  height: 98vh;
+  background-color: black;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.profile-image {
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 45vh;
+  object-fit: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  overflow: hidden;
+}
